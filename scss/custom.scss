@@ -1,0 +1,47 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+@import url(../node_modules/animate.css/animate.css);
+// Include any default variable overrides here (though functions won't be available)
+
+
+// body bg color
+$body-bg: rgb(236, 157, 158);
+
+
+// Theme colors
+// https://getbootstrap.com/docs/5.3/customize/color/#theme-colors
+$primary: #d2c9e7;
+$secondary: #7d82b8;
+$success: #237e4f;
+$info: #c4ffb2;
+$warning: #d6f7a3;
+$danger: #dd7596;
+$light: #f2f2f2;
+$dark: #043e78;
+
+
+// Changing navbar
+$navbar-light-color: rgb(71, 2, 2);
+$navbar-light-hover-color: rgb(251, 255, 0);
+$navbar-light-active-color: rgb(255, 0, 89);
+
+
+// Typography
+$font-family-sans-serif: "Tilt Neon", sans-serif;
+$headings-font-family: "Agbalumo", serif;
+
+
+$h1-font-size: 1rem * 8;
+$h2-font-size: 1rem * 2;
+$h3-font-size: 1rem * 1.75;
+
+
+$line-height-base: 1.6;
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+// Then add additional custom code here
